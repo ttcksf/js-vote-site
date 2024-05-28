@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://node-vote-app.onrender.com/socket.io/socket.io.js"
+      defer
+    ></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>あなたが勉強している言語は？</h2>
+      <div class="progress-box" id="html-css">
+        <p>HTML,CSS</p>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
+        </div>
+      </div>
+      <div class="progress-box" id="javascript">
+        <p>JavaScript</p>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
+        </div>
+      </div>
+      <div class="progress-box" id="react">
+        <p>React</p>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
+        </div>
+      </div>
+      <div class="progress-box" id="react-typescript">
+        <p>React+TypeScript</p>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
+        </div>
+      </div>
+      <div class="progress-box" id="nodejs">
+        <p>Node.js</p>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
+        </div>
+      </div>
+      <div class="progress-box" id="nextjs">
+        <p>Next.js</p>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
+        </div>
+      </div>
+      <h3>投票数：<span id="total-votes"></span></h3>
+    </div>
+  </body>
+</html>
