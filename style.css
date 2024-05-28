@@ -20,6 +20,11 @@ body {
   border-radius: 16px;
   padding: 24px 32px;
 }
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
 .container h2 {
   color: #8adfdc;
 }
