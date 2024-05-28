@@ -16,7 +16,7 @@ body {
   background: #735372;
   display: grid;
   place-items: center;
-  flex-direction: columns;
+  flex-direction: column;
   border-radius: 16px;
   padding: 24px 32px;
 }
